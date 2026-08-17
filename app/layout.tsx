@@ -11,21 +11,9 @@ export const metadata: Metadata = {
   description: 'Shanzoo Tanger — Specialized in Spanish & Italian cuisine. Feel the Night. Open all week 16:00 – 04:00. Eat, drink & chill. Good vibes only.',
   generator: 'v0.app',
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
-    apple: '/apple-icon.png',
+    icon: '/favicon.png',
+    shortcut: '/favicon.png',
+    apple: '/favicon.png',
   },
 }
 

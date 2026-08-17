@@ -33,7 +33,7 @@ export function Header() {
         {/* Desktop Navigation */}
         <nav className="hidden items-center gap-10 md:flex">
           <Link
-            href="#menu"
+            href="/menuprix"
             className="text-sm transition-colors text-muted-foreground hover:text-foreground"
           >
             Menu
@@ -61,7 +61,7 @@ export function Header() {
         {/* CTA */}
         <div className="hidden items-center gap-6 md:flex">
           <Link
-            href="#contact"
+            href="/reservations"
             className="px-4 py-2 text-sm font-medium transition-all rounded-full bg-foreground text-background hover:opacity-80"
           >
             Reserve a Table
@@ -84,7 +84,7 @@ export function Header() {
         <div className="border-t border-border bg-background px-6 py-8 md:hidden rounded-b-2xl">
           <nav className="flex flex-col gap-6">
             <Link
-              href="#menu"
+              href="/menuprix"
               className="text-lg text-foreground"
               onClick={() => setIsMenuOpen(false)}
             >
@@ -112,7 +112,7 @@ export function Header() {
               About
             </Link>
             <Link
-              href="#contact"
+              href="/reservations"
               className="mt-4 bg-foreground px-5 py-3 text-center text-sm font-medium text-background rounded-full"
               onClick={() => setIsMenuOpen(false)}
             >
