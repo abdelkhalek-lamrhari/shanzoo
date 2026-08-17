@@ -8,9 +8,9 @@ const inter = Inter({ subsets: ["latin"], variable: '--font-inter' });
 
 const siteUrl = 'https://shanzoo.vercel.app';
 const ogImage = {
-  url: `${siteUrl}/images/neon-good-vibes.png`,
-  width: 1672,
-  height: 941,
+  url: `${siteUrl}/images/og-good-vibes.png`,
+  width: 1200,
+  height: 630,
   alt: "Shanzoo Tanger — Good Vibes Only",
 };
 
